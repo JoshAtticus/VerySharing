@@ -12,5 +12,6 @@ PRE{ text-align:centre; font-size:medium; font-family:sans-serif; font-weight:no
 A{ text-align:centre; font-family:sans-serif; font-size:normal; color: rgb(0, 0, 0); }
 A:Hover{ text-align:centre; font-family:sans-serif; font-size:normal; color: rgb(50, 50, 50); }
 SPAN{ text-align:centre; font-family:sans-serif; font-size:normal; }
+DIV{ text-align:centre; font-family:sans-serif; font-size:large; }
 font-family:sans-serif; font-size:small; A:Hover{ font-family:sans-serif; font-size:small; }
 </STYLE>

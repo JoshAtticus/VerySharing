@@ -47,6 +47,30 @@
         </div>
             </div>
             <p></p>
+            <div class="container">
+                <div class="center">
+                  <script>function postPersonalInfo() {
+                    var x = document.getElementById("personal-info-header");
+                    if (x.innerHTML === "Use the conveiniently placed textbox below to post your personal info!!!") {
+                      x.innerHTML = "Ha! Now it's permanentley on the internet!";
+                      alert('Whoops! You just posted that on the internet! While you may be able to delete or edit your post, anyone could screenshot it, repost it, or save it. Why not go to CringeVids instead, surely that will cheer you up.');
+                    } else {
+                      x.innerHTML = "Ha! Now it's permanentley on the internet! (we have no post editing)";
+                      alert('Whoops! You just posted that on the internet! While you may be able to delete or edit your post, anyone could screenshot it, repost it, or save it. Why not go to CringeVids instead, surely that will cheer you up.');
+                    }
+                  }</script>
+                  <div id="personal-info-header">Use the conveiniently placed textbox below to post your personal info!!!</div>
+                  <p></p>
+                  <textarea name="personal-info" cols="50" rows="7"></textarea>
+                  <p></p>
+                  <button onclick="postPersonalInfo()">Post it! (trust me it's safe)</button>
+                  <p></p>
+                  <button onclick="alert('Congrats! You just avoided sharing something you may regret in the future! Posting online is forever, anyone coild screenshot, repost or save it. Why not go watch some CringeVids now?')">Do nothing (yes this button exists)</button>
+                  <p></p>
+                  <button onclick="location.href='cringevids.html'">Go visit CringeVids</button>      
+                </div>
+              </div>
+              <p></p>
           <div class="container">
             <div class="center">
               <p><b>Posted by <i>verycringe74</i></b></p>
